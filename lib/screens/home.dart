@@ -157,7 +157,7 @@ class _HomeState extends State<Home> {
               'Medication Administration',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('Plalist'),
+            subtitle: Text('Playlist'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
