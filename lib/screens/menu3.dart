@@ -9,7 +9,7 @@ class Menu3 extends StatefulWidget {
 class _Menu3State extends State<Menu3> {
   FlutterWebviewPlugin objWebview = FlutterWebviewPlugin();
   static String url =
-      "https://studiologic-music.com";
+      "https://www.youtube.com/watch?v=Nb9LoLrxFZ4&list=PLH4h6lsHjCi9kQsZdbNotCXmJzYF5DvJY";
 
   @override
   void initState() {
@@ -33,7 +33,7 @@ class _Menu3State extends State<Menu3> {
       withLocalStorage: true,
       withZoom: true,
       appBar: AppBar(
-        title: Text('STUDIOLOGIC WEBSITE'),
+        title: Text('Nursing Skills'),
       ),
     );
   }

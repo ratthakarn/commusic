@@ -13,8 +13,8 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  String title1 = 'GKRGROUP';
-  String title2 = 'บริษัท.จี.เค.อาร์.กรุ๊ป จำกัด';
+  String title1 = 'PLC NURSE';
+  String title2 = 'ฝ่ายการพยาบาล';
 
   Widget showTitle() {
     return Text(
@@ -69,10 +69,10 @@ class _HomeState extends State<Home> {
               size: 32.0,
             ),
             title: Text(
-              'GKRSHOP',
+              'ISPG',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('สั่งสินค้า'),
+            subtitle: Text('Playlist'),
             onTap: () {
               Navigator.of(context).pop();
               var menu1Route =
@@ -86,10 +86,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'RME',
+              'Nursing Assessment',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('ระบบบันทึกเสียง'),
+            subtitle: Text('Playlist'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -103,10 +103,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'STUDIOLOGIC',
+              'Nursing Skills',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('คีย์บอร์ดและซินธีไซด์เซอร์'),
+            subtitle: Text('Playlist'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -120,10 +120,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'GKR CHANNEL',
+              'Nursing Procedure',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('ช่องวีดีโอ '),
+            subtitle: Text('Plalist'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -137,10 +137,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'GKRGROUP ',
+              'Equipment Usage ',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('เวปไซด์'),
+            subtitle: Text('Playlist'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -154,10 +154,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'SPL',
+              'Medication Administration',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('พรีไมค์,โพเซสเซอร์'),
+            subtitle: Text('Plalist'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -171,10 +171,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'RODE',
+              'Privacy Policy',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('ไมโครโฟน'),
+            subtitle: Text('App Privacy Policy'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -195,11 +195,6 @@ class _HomeState extends State<Home> {
           child: Image.asset('images/bannerflutter.jpg'),
         ),
   
-      Container(
-          margin: EdgeInsets.all(0.0),
-          child: Image.asset('images/template.jpg'),
-        ),    
-
       ],
     );
   }
@@ -208,7 +203,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('GKRGROUP'),
+        title: Text('PLC NURSE'),
       ),
       body: Container(
         child: showContent(),
