@@ -232,7 +232,16 @@ class _HomeState extends State<Home> {
                 '(การใช้งาน: เลือกหัวข้อโดยการแตะที่ปุ่ม Menu หรือสไลด์ขอบจอด้านซ้ายเพื่อแสดง Menu)',
                 style: TextStyle(
                   color: Colors.blue,
-                  fontSize: 18.0,
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.normal,
+                ))),
+                        Container(
+            margin: EdgeInsets.only(left: 20.0, right: 10.0),
+            child: Text(
+                '(Usage: Select a topic by tapping the Menu button or slide the left screen edge to display the Menu)',
+                style: TextStyle(
+                  color: Colors.blue,
+                  fontSize: 16.0,
                   fontWeight: FontWeight.normal,
                 ))),
       ],
