@@ -213,7 +213,7 @@ class _HomeState extends State<Home> {
             child: Text(
                 'เป็นแอพฯสำหรับเล่นคลิปวีดีโอเพื่อให้ความรู้ด้านการพยาบาลโดยแบ่งเป็นหัวข้อต่างๆคือ:',
                 style: TextStyle(
-                  color: Colors.grey,
+                  color: Colors.blueGrey,
                   fontSize: 18.0,
                   fontWeight: FontWeight.normal,
                 ))),
@@ -222,9 +222,9 @@ class _HomeState extends State<Home> {
             child: Text(
                 'ISPG, Nursing Assessment, Nursing Skills, Nursing Procedure, Equipment Usage และ Medication Administration',
                 style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.bold,
+                  color: Colors.blueGrey,
+                  fontSize: 22.0,
+                  fontWeight: FontWeight.normal,
                 ))),
         Container(
             margin: EdgeInsets.only(left: 20.0, right: 10.0),
