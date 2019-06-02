@@ -34,7 +34,7 @@ class _HomeState extends State<Home> {
         color: Colors.white,
         fontSize: 9.0,
         fontWeight: FontWeight.bold,
-        ),
+      ),
     );
   }
 
@@ -83,7 +83,8 @@ class _HomeState extends State<Home> {
           ListTile(
             leading: Icon(
               Icons.featured_video,
-              color: Colors.blueGrey[900],size: 32.0,
+              color: Colors.blueGrey[900],
+              size: 32.0,
             ),
             title: Text(
               'Nursing Assessment',
@@ -100,7 +101,8 @@ class _HomeState extends State<Home> {
           ListTile(
             leading: Icon(
               Icons.face,
-              color: Colors.blueGrey[900],size: 32.0,
+              color: Colors.blueGrey[900],
+              size: 32.0,
             ),
             title: Text(
               'Nursing Skills',
@@ -117,7 +119,8 @@ class _HomeState extends State<Home> {
           ListTile(
             leading: Icon(
               Icons.favorite,
-              color: Colors.blueGrey[900],size: 32.0,
+              color: Colors.blueGrey[900],
+              size: 32.0,
             ),
             title: Text(
               'Nursing Procedure',
@@ -134,7 +137,8 @@ class _HomeState extends State<Home> {
           ListTile(
             leading: Icon(
               Icons.satellite,
-              color: Colors.blueGrey[900],size: 32.0,
+              color: Colors.blueGrey[900],
+              size: 32.0,
             ),
             title: Text(
               'Equipment Usage ',
@@ -151,7 +155,8 @@ class _HomeState extends State<Home> {
           ListTile(
             leading: Icon(
               Icons.lightbulb_outline,
-              color: Colors.blueGrey[900],size: 32.0,
+              color: Colors.blueGrey[900],
+              size: 32.0,
             ),
             title: Text(
               'Medication Administration',
@@ -168,7 +173,8 @@ class _HomeState extends State<Home> {
           ListTile(
             leading: Icon(
               Icons.mic,
-              color: Colors.blueGrey[900],size: 32.0,
+              color: Colors.blueGrey[900],
+              size: 32.0,
             ),
             title: Text(
               'Privacy Policy',
@@ -194,7 +200,41 @@ class _HomeState extends State<Home> {
           margin: EdgeInsets.all(0.0),
           child: Image.asset('images/bannerflutter.jpg'),
         ),
-  
+        Container(
+            margin: EdgeInsets.only(left: 20.0, right: 10.0),
+            child: Text('PLCNURSE',
+                style: TextStyle(
+                  color: Colors.blueAccent,
+                  fontSize: 24.0,
+                  fontWeight: FontWeight.bold,
+                ))),
+        Container(
+            margin: EdgeInsets.only(left: 18.0, right: 10.0),
+            child: Text(
+                'เป็นแอพฯสำหรับเล่นคลิปวีดีโอเพื่อให้ความรู้ด้านการพยาบาลโดยแบ่งเป็นหัวข้อต่างๆคือ:',
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.normal,
+                ))),
+        Container(
+            margin: EdgeInsets.only(left: 18.0, right: 10.0),
+            child: Text(
+                'ISPG, Nursing Assessment, Nursing Skills, Nursing Procedure, Equipment Usage และ Medication Administration',
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.bold,
+                ))),
+        Container(
+            margin: EdgeInsets.only(left: 20.0, right: 10.0),
+            child: Text(
+                '(การใช้งาน: เลือกหัวข้อโดยการแตะที่ปุ่ม Menu หรือสไลด์ขอบจอด้านซ้ายเพื่อแสดง Menu)',
+                style: TextStyle(
+                  color: Colors.blue,
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.normal,
+                ))),
       ],
     );
   }
