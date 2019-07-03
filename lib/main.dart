@@ -17,17 +17,17 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class Home extends StatelessWidget{
-@override
- Widget build(BuildContext context){
-return Scaffold(
-backgroundColor: Colors.black,
-body: Center(
-  child: SpinKitCircle(color: Colors.lightBlueAccent, size: 200.0,),
-),
+// class Home extends StatelessWidget{
+// @override
+//  Widget build(BuildContext context){
+// return Scaffold(
+// backgroundColor: Colors.black,
+// body: Center(
+//   child: SpinKitDualRing(color: Colors.lightBlueAccent, size: 100.0,),
+// ),
 
-);
+// );
 
- } 
+//  } 
 
-}
+// }
