@@ -9,7 +9,7 @@ class Menu2 extends StatefulWidget {
 class _Menu2State extends State<Menu2> {
   FlutterWebviewPlugin objWebview = FlutterWebviewPlugin();
   static String url =
-      "https://www.youtube.com/watch?v=Nb9LoLrxFZ4&list=PLH4h6lsHjCi9alIbdWE7frO0JFv5Q9k9b";
+      "https://www.youtube.com/watch?v=NO6zZp6wh_s&list=PLd4gSPqIp_wCxAa3m4h4M_kQA8toQRgNN";
 
   @override
   void initState() {
