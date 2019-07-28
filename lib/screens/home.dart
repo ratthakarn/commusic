@@ -69,7 +69,7 @@ class _HomeState extends State<Home> {
               size: 32.0,
             ),
             title: Text(
-              'ISPG',
+              'IPSG',
               style: TextStyle(fontSize: 18.0),
             ),
             subtitle: Text('Playlist'),
@@ -220,7 +220,7 @@ class _HomeState extends State<Home> {
         Container(
             margin: EdgeInsets.only(left: 18.0, right: 10.0),
             child: Text(
-                'ISPG, Nursing Assessment, Nursing Skills, Nursing Procedure, Equipment Usage และ Medication Administration',
+                'IPSG, Nursing Assessment, Nursing Skills, Nursing Procedure, Equipment Usage และ Medication Administration',
                 style: TextStyle(
                   color: Colors.blueGrey,
                   fontSize: 22.0,
