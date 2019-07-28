@@ -33,7 +33,7 @@ class _Menu1State extends State<Menu1> {
       withLocalStorage: true,
       withZoom: true,
       appBar: AppBar(
-        title: Text('ISPG'),
+        title: Text('IPSG'),
       ),
     );
   }

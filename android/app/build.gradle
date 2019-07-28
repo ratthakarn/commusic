@@ -13,12 +13,12 @@ if (flutterRoot == null) {
 
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
 if (flutterVersionCode == null) {
-    flutterVersionCode = '4'
+    flutterVersionCode = '6'
 }
 
 def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
-    flutterVersionName = '4.0'
+    flutterVersionName = '6.0'
 }
 
 apply plugin: 'com.android.application'
@@ -36,8 +36,8 @@ android {
         applicationId "th.co.gkrgroup.drsantflutter.plcnurse"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 4
-        versionName "4.0.0"
+        versionCode 6
+        versionName "6.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
